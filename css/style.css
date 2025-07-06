@@ -64,3 +64,28 @@ h1 {
     font-size: 20px;
     
 }
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #5B49F5;
+    text-align: center;
+}
+
+.grid-con {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* 2 cloumn */
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.grid-con li {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ff3700;
+    font-size: large;
+    align-items: first baseline;
+}
